@@ -5,6 +5,7 @@
 
     $placas=consultasSQL::clean_string($_POST['placas']);
     $modelo=consultasSQL::clean_string($_POST['modelo']);
+    $tipo=consultasSQL::clean_string($_POST['tipo']);
     $marca=consultasSQL::clean_string($_POST['marca']);
     $asientos=consultasSQL::clean_string($_POST['asientos']);
     $maletero=consultasSQL::clean_string($_POST['maletero']);
@@ -39,9 +40,9 @@
                     $url = 'img/'.$imgFinalName;
                     
                     if(move_uploaded_file($_FILES['img']['tmp_name'],"../img/".$imgFinalName)){
-                        if(consultasSQL::InsertSQL("carros", "Placas, Modelo, Asientos, Maletero,
+                        if(consultasSQL::InsertSQL("carros", "Placas, Modelo, Tipo, Marca, Asientos, Maletero,
                          Puertas, Transmicion, Precio, Kilometrage,Imagen", 
-                         "'$placas','$modelo','$asientos','$maletero', '$puertas', '$transmicion','$precio',
+                         "'$placas','$modelo', '$tipo', '$marca', '$asientos','$maletero', '$puertas', '$transmicion','$precio',
                          '$kilometrage','$url'")){
                             echo '<script>
                                 swal({
