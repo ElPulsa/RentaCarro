@@ -1,0 +1,27 @@
+
+
+
+ .targeta .catalogo-img img{
+    width: 480px;
+    height: 270px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+.targeta .text1{
+    width: 200px;
+}
+.targeta{
+    background: #202C45;
+    border-radius: 10px;
+    
+}
+ .targeta h2{
+    color: white;
+}
+
+ .targeta p{
+    color: white;
+    
+}
+

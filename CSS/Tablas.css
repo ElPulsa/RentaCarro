@@ -1,0 +1,31 @@
+
+
+
+.Table
+
+    {
+        border-radius: 5px;
+        background: #cfcece;
+        box-shadow:  20px 20px 60px #b0afaf,
+             -20px -20px 60px #eeeded;
+       
+
+    }
+    .Heading
+    {
+        background: #565656;
+        font-weight: bold;
+        text-align: center;       
+    }
+    .Row
+    {
+        background: #f1efef;
+        text-align: center;
+    }
+    .Cell
+    {
+        width: 150px;
+        border-width: thin;
+        padding-left: 5px;
+        padding-right: 5px;                
+    }

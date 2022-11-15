@@ -1,0 +1,38 @@
+::placeholder { 
+    color: black;
+    
+}
+.formulario{
+    background: white;
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.formulario .registroC .a1 h4{
+    font-size: 35px;
+}
+.formulario .registroC .a1 input{
+    width: 80%;/* Establecer el ancho apropiado */
+    border: 0; /* Primero cancele el borde, para que pueda modificar el ancho del borde inferior debajo */
+    border-bottom: 5px solid black; /* Modificar el límite inferior para mostrar el efecto de línea horizontal */
+    font-size: 25px; /* Aumentar el tamaño de fuente de forma adecuada */
+    background: #ffffff00; /* Establecer el cuadro de entrada en transparente */
+    color: black; /* El color del texto anterior se establece en blanco, pero el color del marcador de posición debe establecerse por separado */
+    padding: 5px 10px; /* Para que el contenido del marcador de posición no se muestre en la cuadrícula superior, aumente el borde interno */
+}
+
+.formulario .registroU .a1 h4{
+    font-size: 35px;
+}
+.formulario .registroU .a1 input{
+    width: 80%;/* Establecer el ancho apropiado */
+    border: 0; /* Primero cancele el borde, para que pueda modificar el ancho del borde inferior debajo */
+    border-bottom: 5px solid black; /* Modificar el límite inferior para mostrar el efecto de línea horizontal */
+    font-size: 25px; /* Aumentar el tamaño de fuente de forma adecuada */
+    background: #ffffff00; /* Establecer el cuadro de entrada en transparente */
+    color: black; /* El color del texto anterior se establece en blanco, pero el color del marcador de posición debe establecerse por separado */
+    padding: 5px 10px; /* Para que el contenido del marcador de posición no se muestre en la cuadrícula superior, aumente el borde interno */
+}
+
+
